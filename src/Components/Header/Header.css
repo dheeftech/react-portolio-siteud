@@ -66,6 +66,7 @@
   border-left: 10px solid #003087;
   border-radius: 50%;
   object-fit: cover;
+  margin: 10px;
 }
 .circle-1 {
   position: absolute;

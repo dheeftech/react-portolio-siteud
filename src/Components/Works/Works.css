@@ -1,0 +1,33 @@
+.works-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+.works-item img {
+  width: 100%;
+  height: 100%;
+}
+.works-item:hover {
+  border: 1px solid #333;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* media query for desktop */
+@media (min-width: 768px) {
+  .works-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .works-item {
+    width: 30%;
+    margin: 10px;
+  }
+}
